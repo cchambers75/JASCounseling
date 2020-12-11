@@ -1,0 +1,23 @@
+#branding {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+}
+
+#branding-subtitle {
+    font-family: 'Dancing Script', cursive;
+}
+
+#quote {
+    background-color: rgba(000, 000, 000, .25);
+    margin-top: 10rem;
+    /* width: 30%; */
+}
+
+#list {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    /* list-style-position: inside; */
+}
