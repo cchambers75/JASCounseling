@@ -30,8 +30,15 @@
 
 @media only screen and (max-width: 768px) {
 
+    #quote {
+        background-color: rgba(000, 000, 000, .25);
+        margin-top: 10rem;
+        text-align: center;
+        width: 1000%;
+    }
+
     .quoteSize {
-        font-size: .65rem;
+        font-size: .85rem;
     }
 
     .quoteCitation {
