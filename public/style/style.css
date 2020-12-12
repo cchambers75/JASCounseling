@@ -1,3 +1,15 @@
+body, html {
+    height: 100%;
+}
+
+.bg {
+    background-image: url("/images/compass.jpeg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #branding {
     font-family: 'Dancing Script', cursive;
     font-size: 5rem;
@@ -34,7 +46,7 @@
         background-color: rgba(000, 000, 000, .25);
         margin-top: 10rem;
         text-align: center;
-        width: 1000%;
+        width: 100%;
     }
 
     .quoteSize {
