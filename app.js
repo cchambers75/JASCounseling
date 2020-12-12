@@ -45,4 +45,8 @@ app.get('/rates_insurance', (req, res) => {
     res.render('ratesInsurance');
 });
 
+app.get('/contact', (req, res) => {
+    res.render('contact');
+});
+
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
