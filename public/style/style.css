@@ -4,7 +4,7 @@ body, html {
 
 .bg {
     background-image: url("/images/compass.jpeg");
-    height: 50%;
+    height: 30em;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,9 +57,39 @@ body, html {
     padding-left: 25px;
 }
 
-.phil {
-    padding-bottom: 50px;
+.footer {
+    background-color: #c2e8e7;
+    height: 15rem;
+    padding-top: 2rem;
 }
+
+.facebook-logo {
+    font-size: 8rem;
+}
+
+.logo {
+    width: 8rem;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 15rem;   
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15rem;       
+  }
+
+  .footer-contact {
+      margin-top: 2rem;
+  }
 
 @media only screen and (max-width: 768px) {
 
@@ -91,5 +121,24 @@ body, html {
     .couchPicture {
         width: 75%;
     }
+
+    .facebook-logo {
+        font-size: 3rem;
+    }
+
+    .logo {
+        width: 4rem;
+        margin-bottom: 1rem;
+    }
+    
+    .footer-contact {
+        font-size: small;
+        margin-top: 0;
+    }
+
+    .bg {
+        height: 20rem;
+    }
+
 }
 
